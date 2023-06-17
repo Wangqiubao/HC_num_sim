@@ -1,0 +1,63 @@
+1.Figure2.m:
+D-bifurcation occurs at mu1 = 1/2mu3 , and P-bifurcation occurs at mu1 = mu3 
+(a)mu1=-0.2;mu2=-1;mu3=1;
+(b)mu1=0.999;mu2=-1;mu3=1;
+(c)mu1=2;mu2=-1;mu3=1;
+
+2.Figure3. m:
+The time series diagram of S,E,A,V,Q,R with the parameter tau=10 <tau_0
+
+3.Figure4.m:
+The time series diagram of S,E,A,V,Q,R with the parameter tau=15 >tau_0
+The stability of the system changes as the time delay rises, and the system has a periodic solution.
+
+4.Figure5.m:
+Effect of different time delays on periodic oscillation when k = 0.1. Set tau to 10,15,20, respectively.
+The number of symptomatic infections increases as the reporting time delay grows.
+
+5.Figure7.m:
+Time series diagram of Q/N with different reported delays tau (a) k=0.001, (b)k=0.4.
+(a)k=0.001, tau=1,8,17,26.
+The increase of time delay makes the peak size almost unchanged, but delays the arrival time of the peak.
+(b)k=0.4, tau=0.1,0.85.
+The increase in reporting delay diminishes the peak and delays its arrival. 
+
+6.Figure8.m:
+Time series diagram for Q/N with tau=1 and different sensitivity coefficients k
+tau=1, k=0.2,0.3,0.4,0.5
+The arrival time of the peak value is delayed as the sensitivity coefficient k increases, and the peak value decreases obviously.
+
+7.Figure9.m:
+Probability density diagram with noise intensity K as bifurcation parameter when tau = 12.562. (a)K = 1, (b)K = 200
+The stochastic P bifurcation is captured.
+
+8.Figure10.m:
+ Time series diagram with noise intensity K as bifurcation parameter when tau =12.562. (a) K=1, (b) K=200.
+The stability of the system changes as the  noise intensity K rises.
+
+9.Figure11.m:
+Variance plot of Q for different noise intensities at tau = 10, epsilon =0.01
+Set K to 1,10,15,20 respectively. The variance of the random process considerably rises as the noise level does
+
+10.Figure12.m:
+The probability density diagram of Q/N with tau = 10, epsilon = 0.01. 
+Set K to 0.0001,20 respectively. The noise intensity increases and the system loses stability over a period ranging from 2000 to 5000. 
+
+11.Figure13.m
+Time series diagram of different publicity strategies.
+(a)k=0.001,tau=27;
+k=0.008,tau=7;
+(b)k=0.02,tau=4;
+k=0.003,tau=13;
+(c)k=0.25,tau=1.09;
+k=0.2,tau=0.99;
+k=0.35,tau=0.92;
+k=0.4,tau=0.85;
+k=0.45,tau=0.8;
+k=0.5,tau=0.75
+
+In fig. 13(a), an increase in the value of k results in the peak arrival time being shifted forward by 20 days. Increasing threshold by re-
+ducing the intensity of publicity,  the peak size may increase, as illustrated in fig. 13(b). In fig. 13(b), reducing the value of k leads to an increase in the
+peak number of symptomatic infections by 600 individuals.
+In fig. 13(c), the larger the publicity intensity, the smaller the peak, and the later the peak arrives
+
